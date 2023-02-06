@@ -1,0 +1,251 @@
+body {
+  min-width: 320px;
+  font-family: sans-serif;
+  font-weight: 400;
+  background-color: #1A1A1D;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 50px 160px;
+  margin: 0 auto;
+}
+
+
+/* MAIN */
+
+.atricles {
+  margin-bottom: 100px;
+}
+
+.artecles__title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-size: 50px;
+  color: #C3073F;
+}
+
+.posts__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list__item {
+  margin-bottom: 40px;
+  padding-bottom: 5px;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  font-size: 25px;
+  border-bottom: 2px solid #C3073F;
+}
+
+.item__link {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: color ease-in-out 0.2s;
+  -o-transition: color ease-in-out 0.2s;
+  transition: color ease-in-out 0.2s;
+}
+
+.item__link:focus {
+  color: #C3073F;
+  outline: none;
+}
+
+.item__link:hover {
+  color: #C3073F;
+}
+
+.pagination {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
+}
+
+.pagination_btn {
+  margin-right: 100px;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid white;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition: border-color ease-in-out 0.2s;
+  -o-transition: border-color ease-in-out 0.2s;
+  transition: border-color ease-in-out 0.2s;
+}
+
+.pagination_btn:focus {
+  border-color: #C3073F;
+}
+
+.pagination_btn:hover {
+  border-color: #C3073F;
+}
+
+.pagination_arrow {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #C3073F;
+  border-left: 2px solid #C3073F;
+}
+
+.pagination_btn-no_active {
+  margin-right: 100px;
+  outline-color: #4E4E50;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #4E4E50;
+  background-color: transparent;
+}
+
+.pagination_arrow-no_active {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #4E4E50;
+  border-left: 2px solid #4E4E50;
+}
+
+.pagination_prev {
+  rotate: -45deg;
+  top: 35%;
+  left: 40%;
+}
+
+.pagination_next {
+  rotate: 135deg;
+  top: 35%;
+  left: 30%;
+}
+
+.nav {
+  margin-right: 100px;
+  max-width: 600px;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  list-style: none;
+}
+
+.nav__item {
+  font-size: 20px;
+}
+
+.nav__item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.nav__item-space {
+  margin-right: 15px;
+  font-size: 20px;
+  color: white;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: color ease-in-out 0.2s;
+  -o-transition: color ease-in-out 0.2s;
+  transition: color ease-in-out 0.2s;
+}
+
+.nav__link:focus {
+  color: #C3073F;
+  outline: none;
+}
+
+.nav__link:hover {
+  color: #C3073F;
+}
+
+
+/* POST */
+
+.content {
+  margin-bottom: 100px;
+}
+
+.comment__title {
+  margin: 0;
+  margin-bottom: 30px;
+  font-size: 35px;
+  color: #C3073F;
+}
+
+.content__title {
+  margin: 0;
+  margin-bottom: 50px;
+  color: #C3073F;
+  font-size: 50px;
+}
+
+.content__text {
+  margin: 0;
+  color: white;
+  font-size: 25px;
+  line-height: 35px;
+}
+
+.comment {
+  margin-left: 100px;
+}
+
+.comment__wrap {
+  margin-bottom: 50px;
+  padding: 10px;
+  background-color: #4E4E50;
+  width: 350px;
+  border-radius: 10px;
+}
+
+.comment__name {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.email__wrap {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.comment__email {
+  text-decoration: none;
+  color: lightgray;
+  -webkit-transition: color ease-in-out 0.2s;
+  -o-transition: color ease-in-out 0.2s;
+  transition: color ease-in-out 0.2s;
+}
+
+.comment__email:focus {
+  color: #C3073F;
+  outline: none;
+}
+
+.comment__email:hover {
+  color: #C3073F;
+}
+
+.comment__text {
+  margin: 0;
+}
